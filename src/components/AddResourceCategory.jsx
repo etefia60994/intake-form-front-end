@@ -44,7 +44,7 @@ import ResourceCategoryDS from "../services/ResourceCategoryService"
             <div>
                 <h4>You submitted successfully!</h4>
                 <button className="btn btn-success" onClick={newResourceCategory}>
-                    Add
+                    Add Another
     </button>
             </div>
         ) : (
@@ -58,7 +58,7 @@ import ResourceCategoryDS from "../services/ResourceCategoryService"
                             required
                             value={resourceCategory.resourceName}
                             onChange={handleInput}
-                            name="resouceName"
+                            name="resourceName"
                         />
                     </div>
 
